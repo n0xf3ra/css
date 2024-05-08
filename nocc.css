@@ -1,0 +1,244 @@
+:root
+{
+	--background: rgba(0,0,0,0.74);
+	--border: #3f3f3e;
+	--primary: rgba(230, 58, 58, 0.5);
+}
+/* Background */
+
+.pattern-bg
+{
+	display: none;
+}
+.background
+{
+	background: linear-gradient(180deg, rgba(0,0,0,0.74) 0%, rgb(0, 0, 0, 0.74) 100%), url('https://n0xf3ra.github.io/css/background.jpg') !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+} 
+.bg-radial
+{
+	display: none !important ;
+}
+.logo
+{
+	display: none;
+}
+
+/* Left Interface */
+
+.left-interface
+{
+	padding: 10px !important;
+}
+.left-interface .profile .avatar-info,
+.left-interface .profile .level,
+.left-interface .profile .progress-label
+{
+	display: none !important;
+}
+.left-interface .user-info
+{
+	background: var(--background) !important;
+	border: 1px solid var(--border) !important;
+	border-radius: 14px;
+	height: fit-content !important;
+}
+.left-interface .user-info .level-cont .level-value
+{
+	color: white !important;
+	background-color: var(--primary) !important;
+	font-size: 16px !important;
+}
+.left-interface .user-info .level-cont .level-text
+{
+	display: none;
+}
+.left-interface .moneys
+{
+	margin: 0 !important;
+}
+.left-interface .moneys div
+{
+	background: none !important;
+	border: none !important;
+}
+
+/* Progress Lines */
+
+.progress-line
+{
+	background-color: var(--background) !important;
+	border-radius: 14px !important;
+}
+.progress-line .progress
+{
+	background-color: var(--primary) !important;
+}
+
+
+/* Left Icons */
+
+.left-icons
+{
+	background: none !important;
+	bottom: 0 !important;
+	display: flex !important;
+	height: 60px;
+	flex-direction: row !important;
+	left: 50% !important;
+	top: calc(100% - 60px) !important;
+	transform: translateX(-50%) !important;
+}
+.left-icons .icon-btn
+{
+	background: none !important;
+	border: none !important;
+	height: 60px;
+	width: 60px;
+}
+.left-icons .icon-btn.MAP
+{
+	display: none !important;
+}
+.left-icons .icon-btn .wrapper
+{
+
+}
+.left-icons .icon-btn .wrapper .text-icon
+{
+	display: none !important;
+}
+
+/* Play Buttons */
+
+.play
+{
+	padding: 0 20px 0 0 !important;
+	height: 100px !important;
+	bottom: -65px !important;
+}
+.play .play-content
+{
+	align-items: center !important;
+	flex-direction: row !important;
+	font-size: 14px !important;
+	height: 60px !important;
+	position: static !important;
+	width: 90px !important;
+}
+.play .select-mod,
+.play .custom-checkbox .checkbox,
+.play .custom-checkbox span::before,
+.play .play-btn 
+{
+	display: none !important; 
+} 
+.play .select-region
+{
+	align-items: center !important;
+	background: none !important;
+	border: none !important;
+	display: flex !important;
+	height: 20px !important;
+	font-size: 14px !important;
+	position: absolute;
+	top: 0;
+}
+.play .select-region img
+{
+	height: 11px !important;
+	margin-right: 3px !important;
+	width: auto !important;
+}
+.play .play-content-up
+{
+	align-items: center;
+	background: none !important;
+	display: flex !important;
+	height: 20px !important;
+	right: 10px;
+	position: absolute !important;
+	top: 0;
+	width: fit-content !important;
+}
+.play .custom-checkbox
+{
+	margin: 0 !important;
+}
+
+/* Right Interface */
+
+.right-interface
+{
+	flex-direction: column-reverse !important;
+	padding: 10px !important;
+}
+.right-interface .settings-and-socicons .card-cont:nth-child(1),
+.right-interface .settings-and-socicons .card-cont .text-soc
+{
+	display: none !important; 
+}
+.right-interface .settings-and-socicons
+{
+	width: fit-content !important;
+	gap: 0 !important;
+}
+.right-interface .settings-and-socicons .card-cont
+{
+	background: none !important;
+	border:  none !important;
+	height: 60px !important;
+	margin:  0 !important;
+	width: 60px !important;
+}
+.right-interface .settings-and-socicons .card-cont svg
+{
+	height: auto !important;
+	width: 32px !important;
+}
+.right-interface .quests
+{
+	background: var(--background) !important;
+	border: 1px solid var(--border) !important;
+	border-radius: 14px;
+	height: fit-content !important;
+}
+.right-interface .quests .tab
+{
+	background: none !important;
+}
+.right-interface .quests .tab.selected
+{
+	background: var(--primary) !important;
+}
+.right-interface .quests .quest
+{
+	background: none !important;
+}
+.right-interface .quests .quest .reward
+{
+	background: var(--primary) !important;
+}
+
+/* Center */
+
+.levels
+{
+	background-color: var(--primary) !important;
+	color: white !important;
+	font-size: 26px !important;
+}
+.clan-tag
+{
+	font-size: 12px !important;
+	line-height: 14px !important;
+	color: var(--primary) !important
+}
+.nickname
+{ 
+	color: white !important;
+	line-height: 26px !important;
+	font-size: 26px !important;
+}
