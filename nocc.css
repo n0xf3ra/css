@@ -96,15 +96,16 @@
 	background: none !important;
 	border: none !important;
 	height: 60px;
+	padding: 0 !important;
 	width: 60px;
+}
+.left-icons .icon-btn.SERVERS
+{
+	padding-bottom: 6px !important;
 }
 .left-icons .icon-btn.MAP
 {
 	display: none !important;
-}
-.left-icons .icon-btn .wrapper
-{
-
 }
 .left-icons .icon-btn .wrapper .text-icon
 {
